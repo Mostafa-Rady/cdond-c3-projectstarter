@@ -9,7 +9,7 @@ import history from './browserHistory';
 // prepare store
 const store = configureStore(history);
 
-ReactDOM11.render(
+ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Root />
